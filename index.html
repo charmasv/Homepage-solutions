@@ -3,171 +3,230 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ashley Williams | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="page-container">
-        <header>
-            <div class="header">
-                <div class="header-top">
-                    <div class="image-name"><h1>Sarmah</h1></div>
-                    <div class="header-image"><img src="assets/oriental-zoomed.jpg" alt="placeholder for profile"></div>
+    <!-- Header -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo">Ashley<span>Williams</span></div>
+            <button class="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Creative Developer & Designer</h1>
+            <p>I craft digital experiences that are both beautiful and functional. With a passion for clean code and intuitive design, I create solutions that solve real problems.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Hello, I'm Ashley Williams</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                 </div>
-                <div class="header-about">
-                    <h2>About me</h2>
-                    <div class="about-description">
-                        <p> 
-                            Hello! I'm a passionate web developer with a strong focus on backend development
-                            using <strong>Ruby on Rails.</strong> I thrive on  building robust, scalable, and efficient web applications
-                            that deliver seamless user expriences. With a deep understanding of <strong>RESTful APIs, database design, and server-side logic</strong>, I craft 
-                            clean, maintainable code that powers dynamic websites and web services. Let's build something amazing together.
-                        </p>
-                        <div class="header-icons">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" height="20px" width="20px"/>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" height="20px" width="20px"/>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg" height="20px" width="20px"/>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Ashley Williams">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Work</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="Project 1" class="project-img">
+                    <div class="project-content">
+                        <h3>E-commerce Platform</h3>
+                        <p>Short description of the project. Just a couple sentences will do. This project showcases my skills in creating responsive e-commerce solutions.</p>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1618761714954-0b8cd0026356?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="Project 2" class="project-img">
+                    <div class="project-content">
+                        <h3>Fitness Tracker App</h3>
+                        <p>Short description of the project. Just a couple sentences will do. This project demonstrates my ability to create engaging mobile applications.</p>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="Project 3" class="project-img">
+                    <div class="project-content">
+                        <h3>Travel Blog Platform</h3>
+                        <p>Short description of the project. Just a couple sentences will do. This project highlights my skills in content management systems.</p>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1715&q=80" alt="Project 4" class="project-img">
+                    <div class="project-content">
+                        <h3>Financial Dashboard</h3>
+                        <p>Short description of the project. Just a couple sentences will do. This project demonstrates my data visualization expertise.</p>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#"><i class="fab fa-github"></i> Source Code</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </header>
+        </div>
+    </section>
 
-        <section>
-            <div class=" section work">
-                <h2>My Work</h2>
-                <div class="projects">
-                    <div class="project1">
-                        <div>
-                            <img src="assets/dashboard-zoomed.webp" alt="screenshot of admin dashboard">
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Let's Connect</h2>
+                    <p>Please get in touch if you think our work could be mutually beneficial! I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>1234 Random Road, Random Town, California 12345</span>
                         </div>
-                        <div class="project-details">
-                            <h3>Admin Dashboard</h3>
-                            <div class="project-links">
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" height="20px" width="20px"/>
-                                <img src="assets/open-in-new.svg" alt="open in new tab" height="20px" width="20px">
-                            </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>555-555-5555</span>
                         </div>
-                        <p>
-                           This project is a build of a full dashboard design.
-                           It uses css grid for the majority of the layout to work. 
-                        </p>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>ashleywilliams.is.not.real@gmail.com</span>
+                        </div>
                     </div>
-                    <div class="project2">
-                        <div>
-                            <img src="assets/zoomed-knights.webp" alt="placeholder for profile">
-                        </div>
-                        <div class="project-details">
-                            <h3>Knights Travail</h3>
-                           <div class="project-links">
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" height="20px" width="20px"/>
-                                <img src="assets/open-in-new.svg" alt="open in new tab" height="20px" width="20px">
-                            </div>
-                        </div>
-                        <p>
-                            The goal of this project is to traverse the chessboard and 
-                            find the shortest path a knight can make from one point(start) 
-                            to the another point(end)
-                        </p>
-                        
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
-                    <div class="project3">
-                        <div>
-                            <img src="assets/sketch-zoomed.webp" alt="placeholder for profile">
+                </div>
+                
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required>
                         </div>
-                        <div class="project-details">
-                            <h3>Etch A sketch</h3>
-                            <div class="project-links">
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" height="20px" width="20px"/>
-                                <img src="assets/open-in-new.svg" alt="open in new tab" height="20px" width="20px">
-                            </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
                         </div>
-                        <p>
-                            Etch a sketch builds a small canva made of cells that enable a user to make a drawing by hovering over the them.
-                        </p>
-                    </div>
-                    <div class="project4">
-                        <div>
-                            <img src="assets/zoomed-sign-up.webp" alt="placeholder for profile">
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject">
                         </div>
-                        <div class="project-details">
-                            <h3>Sign-up form</h3>
-                            <div class="project-links">
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" height="20px" width="20px"/>
-                                <img src="assets/open-in-new.svg" alt="open in new tab" height="20px" width="20px">
-                            </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" required></textarea>
                         </div>
-                        <p>
-                            This project creates a sign-up form which enables a user 
-                            sign up for an online service or log in if the user already exists.
-                        </p>
-                    </div>
-                    <div class="project5">
-                        <div>
-                            <img src="assets/zoomed-rock.webp" alt="placeholder for profile">
-                        </div>
-                        <div class="project-details">
-                            <h3>Rock Paper Scissors</h3>
-                           <div class="project-links">
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" height="20px" width="20px"/>
-                                <img src="assets/open-in-new.svg" alt="open in new tab" height="20px" width="20px">
-                            </div>
-                        </div>
-                        <p>
-                            This is a game played in the browser against the computer
-                            and played in rounds of 5 with a winner declared every 5 rounds.
-                        </p>
-                    </div>
-                    <div class="project6">
-                        <div>
-                            <img src="assets/zoom-landing.webp" alt="screenshot of a landing page">
-                        </div>
-                        <div class="project-details">
-                            <h3>Landing Page</h3>
-                            <div class="project-links">
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" height="20px" width="20px"/>
-                                <img src="assets/open-in-new.svg" alt="open in new tab" height="20px" width="20px">
-                            </div>
-                        </div>
-                        <p>
-                            This project creates an entire web page from the design of 
-                            a landing page template.
-                        </p>
-                    </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <footer>
-            <div class="footer contact">
-                <div>
-                    <h2>Contact me</h2>
-                    <p>Please get in touch if you think our work could be mutually beneficial.</p>
-                    1234 Random Road
-                    Random Town, Carlifonia 12345
-                    <div class="addressable">
-                        <div class="address">
-                            <img src="assets/phone-outline.svg" alt="an phone outline" height="20px" class="20px">
-                            <p>555-5555-555</p>
-                        </div>
-
-                        <div class="address">
-                            <img src="assets/email-outline.svg" alt="an email outline" height="20px" width="20px">
-                            <p>not-email@gmail.com</p>
-                        </div>
-
-                        <div class="social-icons">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" height="20px" width="20px"/>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" height="20px" width="20px"/>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg" height="20px" width="20px"/>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <img src="assets/oriental-zoomed.jpg" alt="placeholder for profile">
-                </div>
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">Ashley<span>Williams</span></div>
+            <div class="footer-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <a href="#">Privacy Policy</a>
             </div>
-        </footer>
-    </div>
+            <div class="copyright">
+                &copy; 2023 Ashley Williams. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Navigation Toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    window.scrollTo({
+                        top: target.offsetTop - 70,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Form submission
+        const contactForm = document.querySelector('.contact-form form');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('Thank you for your message! I will get back to you soon.');
+                contactForm.reset();
+            });
+        }
+    </script>
 </body>
 </html>
